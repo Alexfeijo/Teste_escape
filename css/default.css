@@ -1,0 +1,619 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #FFF;
+}
+
+/* Configuração do Topo */
+
+header{
+	width: 100%;
+	height: 144px;
+	float: left;
+	background-color: #ececec;
+	display: table;
+	margin: 0;
+	padding: 0;
+}
+header #topo{
+	width: 1120px;
+	height: 144px;
+	margin: 0 auto;
+}
+
+#logo{
+	width: 228px;
+	height: 53px;
+	float: left;
+	margin-top:  45px;
+}
+
+#topo-right{
+	width: 455px;
+	height: 144px;
+	float: right;
+}
+
+#topo-right p{
+	width: 455px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	font-family: Tahoma;
+	color: #555555;
+	font-size: 14px;
+	text-align: right;
+}
+
+#topo-right p a{
+	color: #BEBEBE;
+	text-decoration: none;
+}
+
+#topo-right #busca-organica{
+	width: 400px;
+	height: 40px;
+	border: none;
+	background: #fff;
+	float: right;
+	box-shadow: inset 0px 0px 3px 2px #cfcdcd;
+	font-family: Tahoma;
+	font-size: 16px;
+	color: #9e9e9e;
+	text-align: right;
+	padding: 0px 10px 0px 10px;
+}
+
+/* Configurações do Menu */
+
+#menu{
+	width: 100%;
+	height: 50px;
+	float: left;
+	background-color: #2F4F4F;
+}
+
+#menu nav{
+	width: 1120px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+nav ul#menu-screen{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul#menu-screen li{
+	width:  auto;
+	height: auto;
+	display: inline;
+	padding: 15px 15px 16px 15px;
+	text-align: center;
+	float: left;
+	margin-right: 7px;
+	font-family: Tahoma;
+	font-size: 16px;
+	color: #fff;
+}
+
+nav a{
+	color: #2F4F4F;
+	text-decoration: none;
+}
+
+ul#menu-screen li ul li:hover a{
+	color: #fff;
+	text-decoration: none;
+}
+
+ul#menu-screen li a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul#menu-screen li:first-child{
+	width: 130px;
+	height: 19px;
+	z-index: 999;
+}
+
+nav ul#menu-screen li:hover{
+	background-color: #fff;
+	color: #2F4F4F;
+	cursor: pointer;
+}
+
+nav ul#menu-screen li ul{
+	display: none;
+}
+
+nav ul#menu-screen li:hover ul{
+	display: block;
+	margin-left: -15px;
+	margin-top: 12px;
+	width: 1080px;
+	height: auto;
+	padding: 20px;
+	float: left;
+	background-color: #fff;
+	border-radius: 0px 0px 4px 4px;
+	border: 1px solid #f4f4f4;
+	border-top: none;
+	position: relative;
+	z-index: 3;
+}
+
+nav ul#menu-screen li:hover ul li{
+	width: auto;
+	height: auto;
+	color: #121212;
+	display: block;
+	padding: 0px;
+	margin-right: 10px;
+	padding: 10px 12px 10px 12px;
+	border-radius: 2px;
+}
+
+nav ul#menu-screen li:hover ul li:hover{
+	background-color: #2F4F4F;
+	color: #FFF;
+}
+
+/* Configuração do Conteudo */
+
+main{
+	width: 100%;
+	height: auto;
+	float: left;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 30px;
+}
+
+section#content{
+	width: 1120px;
+	height: auto;
+	margin: 0 auto;
+}
+
+section#conteudo{
+	width: 700px;
+	height: auto;
+	float: left;
+}
+
+section.banner{
+	width: 690px;
+	height: 270px;
+	float: left;
+	margin-top: 20px;
+}
+
+section.banner ul li a img{
+	max-width: 690px;
+	max-height: 270px;
+	min-width: 690px;
+	min-height: 270px;
+}
+
+section#artigos{
+	width: 700px;
+	height: auto;
+	float: left;
+	margin-top: 20px;
+}
+
+section#artigos article{
+	width: 218px;
+	height: 250px;
+	float: left;
+	font-family: Tahoma;
+	color: #2F4F4F;
+	margin-left: 12px;
+	margin-bottom: 15px;
+}
+
+section#artigos a{
+	color: #2F4F4F;
+	text-decoration: none;
+}
+
+section#artigos a:hover{
+	color: #2F4F4F;
+	text-decoration: underline;
+}	
+
+section#artigos article h1{
+	width: 218px;
+	height: auto;
+	float: left;
+	font-size: 16px;
+	text-align: left;
+	padding: 0;
+	}
+	
+	section#artigos article img{
+		width: 210px;
+		height: 160px;
+		float: left;
+		margin-top: 5px;
+		border: 4px solid #2F4F4F;
+	}
+	
+	section#artigos article h2{
+	width: 218px;
+	height: 55px;
+	float: left;
+	font-size: 14px;
+	text-align: center;
+	padding: 0;
+	}
+	
+	section#publicidade-conteudo{
+		width: 700px;
+		height: 100px;
+		float: left;
+		background-color: #ccc;
+	}
+        
+/* Configuração da Sidebar */
+
+section#sidebar{
+    width: 400px;
+    height: auto;
+    margin-top: 20px;
+    float: right;
+}
+
+section#publicidade-sidebar{
+    width: 400px;
+    height: 250px;
+    float: right;
+    background: #ddd;
+    margin-bottom: 15px;
+}
+
+section#widget-ultimas-noticias, section#widget-categorias-portal{
+    width: 400px;
+    height: auto;
+    float: right;
+    font-family: Tahoma;
+    font-size: 14px;
+    text-align: right;
+}
+
+section#widget-categorias-portal{
+    margin-top: 15px;
+}
+
+section#widget-ultimas-noticias h1, section#widget-categorias-portal h1{
+    font-size: 16px;
+    border-bottom: 2px solid #f4f4f4;
+    color: #121212;
+    padding: 7px 0px 7px 0px;
+    width: 400px;
+    height: auto;
+    float: right;
+    position: relative;
+    z-index: 2;
+}
+
+section#widget-ultimas-noticias a{
+    color: #121212;
+	text-decoration: none;
+}
+	
+
+section#widget-ultimas-noticias ul, section#widget-categorias-portal ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    float: right;
+}
+
+section#widget-categorias-portal a{
+    color: #121212;
+	text-decoration: none;
+}
+
+section#widget-ultimas-noticias ul li, section#widget-categorias-portal ul li{
+    color: #838383;
+    width: 386px;
+    height: auto;
+    padding: 5px 7px 5px 7px;
+    float: left;
+}
+
+section#widget-categorias-portal ul li{
+    width: auto;
+    height: auto;
+    padding: 7px 5px 7px 5px;
+    float: right;
+}
+
+section#widget-ultimas-noticias ul li:hover, section#widget-categorias-portal ul li:hover{
+    background-color: #f1f1f1;
+    color: #121212;
+    cursor: pointer;
+}
+
+/* Configuração Noticias Interna */
+
+section#banner-noticia{
+	width: 690px;
+	height: 270px;
+	float: left;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+section#banner-noticia img{
+	width: 690px;
+	height: 270px;
+}
+
+section#info-noticias{
+	margin-top: 20px;
+	float: left;
+	text-align: left;
+}
+
+section#info-noticias h1{
+	width: 679px;
+	height: auto;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 5px;
+}
+
+section#conteudo-noticia{
+	width: 690px;
+	height: auto;
+	margin-top: 20px;
+	float: left;
+	text-align: justify;
+}
+
+section#tags{
+	width: 670px;
+	height: auto;
+	float: left;
+	background-color: #E2E2E2;
+	color: #121212;
+	padding: 10px;
+	margin-top: 10px;
+	text-align: left;
+	border: 2px dashed #BBBBBB;
+}
+
+/*Configuração página de Categoria */
+
+section#categoria-news, section#categoria-news-error{
+	width: 650px;
+	height: auto;
+	float: left;
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+section#categoria-news h1, section#categoria-news-error h1{
+	width: 100%;
+	height: auto;
+	text-align:left;
+	font-size: 20px;
+	font-family: Tahoma;
+	padding: 10px 0px;
+	border-bottom: 1px solid #BCBCBC;
+	margin-bottom: 10px;
+}
+
+section#categoria-news-error h1{
+	border: none;
+	font-size: 24px;
+}
+
+section#categoria-news h1 a{
+	color: #121212;
+	text-decoration: none;
+}
+
+section#imagem-noticia{
+	width: 160px;
+	height: 160px;
+	float: left;
+	border: 5px solid #fff;
+	box-shadow: 0px 0px 2px 1px #999999;
+	margin-right: 20px;
+	margin-bottom: 3px;
+	margin-top: 8px;
+	overflow: hidden;
+}
+
+section#imagem-noticia img{
+	width: 160px;
+	height: 100%;
+	float: left;
+}
+
+section#categoria-news p{
+	text-align: justify;
+	font-size: 14px;
+	font-family: Tahoma;
+	color: #121212;
+}
+
+section#categoria-news p a{
+	color: #2E8B57;
+	text-decoration: none;
+}
+
+/* Configuração de Comentários */
+
+section#comentarios{
+	width: 700px;
+	height:auto;
+	float: left;
+	margin-top: 20px;
+	text-align:left;
+}
+
+section#comentarios table{
+	width: 680px;
+	height:auto;
+}
+
+section#comentarios table tr td{
+	padding: 3px 0px;
+	font-size: 16px;
+}
+
+section#comentarios table tr:first-child td{
+	font-size: 24px;
+	padding-bottom: 7px;
+}
+
+section#comentarios table tr td input[type='text'], section#comentarios table tr td input[type='email'], section#comentarios table tr td input[type='password']{
+	width: 680px;
+	height: auto;
+	padding: 7px 10px;
+	background-color: #fff;
+	color: #121212;
+	border: 1px solid #CCC;
+	border-radius: 2px;
+}
+
+section#comentarios table tr td input[type='password']{
+	width: 120px;
+}
+
+section#comentarios table tr td textarea{
+	min-width: 680px;
+	max-width: 680px;	
+	min-height: 250px;	
+	max-height: 250px;
+	padding: 7px 10px;
+	background-color: #fff;
+	color: #121212;
+	border: 1px solid #CCC;
+	border-radius: 2px;
+}
+
+section#comentarios table tr td input[type='submit']{
+	width: auto;
+	height: auto;
+	float: right;
+	padding: 7px 10px;
+	background-color: #121212;
+	color: #fff;
+	border: none;
+	border-radius: 2px;
+	cursor: pointer;
+	padding-top: 10px;
+}
+
+section#exibircomentarios{
+	width: 700px;
+	height:auto;
+	float: left;
+	margin-top: 40px;
+	text-align:left;
+}
+
+section#exibircomentarios h1{
+	width: 700px;
+	height: auto;
+	padding: 0px;
+	padding-bottom: 7px;
+	text-align: left;
+	font-size: 16px;
+	border-bottom: 2px solid #ccc;
+}
+
+section#exibircomentarios p{
+	width: 700px;
+	height: auto;
+	margin-top: 20px;
+	text-align: left;
+	font-size: 12px;
+}
+
+/* Configuracao Buscar */
+
+section#buscar {
+	width: 700px;
+	height: auto;
+	float: left;
+	text-align: left;
+	font-size: 12px;
+	font-family: Tahoma;
+	margin-top: 20px;
+}
+
+section#buscar h2{
+	width: 700px;
+	height: auto;
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom: 1px solid #d1d1d1;
+	padding-bottom: 5px;
+	float: left;
+	margin-bottom: 15px;
+}
+
+section#buscar-img{
+	width: 160px;
+	height: 160px;
+	float: left;
+	overflow: hidden;
+}
+
+section#buscar-img img{
+	width: 160px;
+	height: 160px;
+}
+
+section#buscar-conteudo{
+	width: 520px;
+	height: 160px;
+	float: right;
+	text-align: justify;
+	margin-top: -7px;
+}
+
+section#buscar-conteudo a{
+	color: #2E8B57;
+	text-decoration: none;
+}
+
+/* Configuração do Footer */
+
+footer{
+    width: 100%;
+    height: auto;
+    float: left;
+    background: #f4f4f4;
+}
+
+footer #center-ft{
+    width: 1120px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#logo-footer{
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer #center-ft p{
+    font-family: Tahoma;
+    font-size: 14px;
+    float: right;
+    margin-top: 40px;
+}
